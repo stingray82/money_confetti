@@ -1,0 +1,14 @@
+Defer
+
+setTimeout(function(){
+        let money = document.createElement('script');
+        money.setAttribute('src','https://cdn.jsdelivr.net/gh/stingray82/money_confetti/js/main.js');
+        money.setAttribute("defer","defer");
+        document.head.appendChild(money);
+    },3000);
+
+
+
+
+
+Give data attribute of Money=True
